@@ -47,13 +47,12 @@ func _physics_process(delta: float) -> void:
 			if anime_player.current_animation != "walk":
 				anime_player.play("walk")
 	else:
-		if anime_player.current_animation != "idle":
-			anime_player.play("idle")
+		if anime_player.current_animation != "jump":
+			anime_player.play("jump")
+		if is_on_floor() and velocity.length() == 0:
+			if anime_player.current_animation != "idle":
+				anime_player.play("idle")
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
-
-	# Reset animation to idle when on floor after jump
-	if is_on_floor() and anime_player.current_animation == "jump":
-		anime_player.play("idle")
-
+		
 	move_and_slide()
