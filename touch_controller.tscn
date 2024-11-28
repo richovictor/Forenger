@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://b3i77hyvigm2b"]
+
+[ext_resource type="Texture2D" uid="uid://hjbckm4qqnfm" path="res://textures/button/run_icon.png" id="1_ci2wd"]
+[ext_resource type="Script" path="res://touch_controller.gd" id="1_nj81x"]
+[ext_resource type="Texture2D" uid="uid://dl6uhinkqyexb" path="res://textures/button/jump_icon.png" id="2_h7gel"]
+
+[node name="TouchController" type="CanvasLayer"]
+script = ExtResource("1_nj81x")
+
+[node name="run" type="TouchScreenButton" parent="."]
+position = Vector2(87, 91)
+scale = Vector2(0.25, 0.25)
+texture_normal = ExtResource("1_ci2wd")
+action = "run"
+
+[node name="jump" type="TouchScreenButton" parent="."]
+position = Vector2(796, 425)
+scale = Vector2(0.25, 0.25)
+texture_normal = ExtResource("2_h7gel")
+action = "jump"
+
+[connection signal="pressed" from="run" to="." method="_on_run_pressed"]
+[connection signal="released" from="run" to="." method="_on_run_released"]
+[connection signal="pressed" from="jump" to="." method="_on_jump_pressed"]
+[connection signal="released" from="jump" to="." method="_on_jump_released"]
