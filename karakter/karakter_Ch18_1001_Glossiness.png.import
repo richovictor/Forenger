@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dofpy1ooeuoo8"
 path.s3tc="res://.godot/imported/karakter_Ch18_1001_Glossiness.png-ea3eae1a49558cd6ab1734d2488eeb3c.s3tc.ctex"
+path.etc2="res://.godot/imported/karakter_Ch18_1001_Glossiness.png-ea3eae1a49558cd6ab1734d2488eeb3c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://karakter/karakter_Ch18_1001_Glossiness.png"
-dest_files=["res://.godot/imported/karakter_Ch18_1001_Glossiness.png-ea3eae1a49558cd6ab1734d2488eeb3c.s3tc.ctex"]
+dest_files=["res://.godot/imported/karakter_Ch18_1001_Glossiness.png-ea3eae1a49558cd6ab1734d2488eeb3c.s3tc.ctex", "res://.godot/imported/karakter_Ch18_1001_Glossiness.png-ea3eae1a49558cd6ab1734d2488eeb3c.etc2.ctex"]
 
 [params]
 

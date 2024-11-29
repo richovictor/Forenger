@@ -11,9 +11,10 @@ config_version=5
 [application]
 
 config/name="Forenger"
+config/version="1.0"
 run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://textures/logoapk.png"
 
 [autoload]
 
@@ -48,3 +49,7 @@ run={
 [input_devices]
 
 pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+textures/vram_compression/import_etc2_astc=true

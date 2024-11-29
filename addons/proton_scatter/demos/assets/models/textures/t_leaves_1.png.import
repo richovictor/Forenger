@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://drmmcy11y7mho"
 path.s3tc="res://.godot/imported/t_leaves_1.png-ff03bb85b1772bb2f2f63756e7bd6390.s3tc.ctex"
+path.etc2="res://.godot/imported/t_leaves_1.png-ff03bb85b1772bb2f2f63756e7bd6390.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/proton_scatter/demos/assets/models/textures/t_leaves_1.png"
-dest_files=["res://.godot/imported/t_leaves_1.png-ff03bb85b1772bb2f2f63756e7bd6390.s3tc.ctex"]
+dest_files=["res://.godot/imported/t_leaves_1.png-ff03bb85b1772bb2f2f63756e7bd6390.s3tc.ctex", "res://.godot/imported/t_leaves_1.png-ff03bb85b1772bb2f2f63756e7bd6390.etc2.ctex"]
 
 [params]
 

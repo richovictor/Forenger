@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjdgw8o5tr1a3"
 path.s3tc="res://.godot/imported/mushroom.png-df085179de550a4d80b1fd8c5b73ec2d.s3tc.ctex"
+path.etc2="res://.godot/imported/mushroom.png-df085179de550a4d80b1fd8c5b73ec2d.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/proton_scatter/demos/assets/models/textures/mushroom.png"
-dest_files=["res://.godot/imported/mushroom.png-df085179de550a4d80b1fd8c5b73ec2d.s3tc.ctex"]
+dest_files=["res://.godot/imported/mushroom.png-df085179de550a4d80b1fd8c5b73ec2d.s3tc.ctex", "res://.godot/imported/mushroom.png-df085179de550a4d80b1fd8c5b73ec2d.etc2.ctex"]
 
 [params]
 

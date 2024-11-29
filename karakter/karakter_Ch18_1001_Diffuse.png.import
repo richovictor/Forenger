@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbf68tg36x1x3"
 path.s3tc="res://.godot/imported/karakter_Ch18_1001_Diffuse.png-52d52c335cfb344db5e4bff62c9365c8.s3tc.ctex"
+path.etc2="res://.godot/imported/karakter_Ch18_1001_Diffuse.png-52d52c335cfb344db5e4bff62c9365c8.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://karakter/karakter_Ch18_1001_Diffuse.png"
-dest_files=["res://.godot/imported/karakter_Ch18_1001_Diffuse.png-52d52c335cfb344db5e4bff62c9365c8.s3tc.ctex"]
+dest_files=["res://.godot/imported/karakter_Ch18_1001_Diffuse.png-52d52c335cfb344db5e4bff62c9365c8.s3tc.ctex", "res://.godot/imported/karakter_Ch18_1001_Diffuse.png-52d52c335cfb344db5e4bff62c9365c8.etc2.ctex"]
 
 [params]
 

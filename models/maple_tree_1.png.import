@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbry4ip7vj75l"
 path.s3tc="res://.godot/imported/maple_tree_1.png-778eb9b2b6593f586879718c513bd8ea.s3tc.ctex"
+path.etc2="res://.godot/imported/maple_tree_1.png-778eb9b2b6593f586879718c513bd8ea.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://models/maple_tree_1.png"
-dest_files=["res://.godot/imported/maple_tree_1.png-778eb9b2b6593f586879718c513bd8ea.s3tc.ctex"]
+dest_files=["res://.godot/imported/maple_tree_1.png-778eb9b2b6593f586879718c513bd8ea.s3tc.ctex", "res://.godot/imported/maple_tree_1.png-778eb9b2b6593f586879718c513bd8ea.etc2.ctex"]
 
 [params]
 
